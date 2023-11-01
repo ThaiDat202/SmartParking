@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             int itemId = item.getItemId(); // Get the ID of the selected item
 
             if (itemId == R.id.ticket) {
-                replaceFragment(new InformationPayFragment()); // Replace with the actual fragment you want to display
+                replaceFragment(new TicketFragment()); // Replace with the actual fragment you want to display
             } else if (itemId == R.id.qr) {
                 replaceFragment(new QrFragment()); // Replace with the actual fragment
             } else if (itemId == R.id.search) {
